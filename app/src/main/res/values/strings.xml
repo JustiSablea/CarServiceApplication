@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CarService</string>
+    <string name="login">Авторизоваться</string>
+    <string name="enter_password">Введите свой пароль</string>
+    <string name="confirm_password">Подтвердите свой пароль</string>
+    <string name="enter_your_email">Введите свой email</string>
+    <string name="enter_your_name">Введите имя</string>
+    <string name="enter_your_surname">Введите фамилию</string>
+    <string name="enter_your_birthdate">Введите дату рождения</string>
+    <string name="enter_your_phone_number">Введите номер телефона</string>
+    <string name="enter_car_license_plate_number">Введите госномер</string>
+    <string name="save_button">Сохранить</string>
+    <string name="add_car_button">Добавить автомобиль</string>
+    <string name="enter_car_color">Введите цвет</string>
+    <string name="edit_profile_button">Редактировать профиль</string>
+    <string name="appointment_history">История обращений</string>
+    <string name="user_cars">Ваши автомобили</string>
+    <string name="car_management_button">Управление автомобилями</string>
+    <string name="enter_car_year_of_release">Введите год выпуска</string>
+    <string name="logout">Logout</string>
+    <string name="registration_text">"Ещё не создали аккаунт?"</string>
+    <string name="authorization_text">"Уже есть аккаунт?"</string>
+    <string name="registration_hyperlink">Зарегестрироваться</string>
+    <string name="authorization_hyperlink">Авторизоваться</string>
+    <string name="login_screen_text">Car Service Login</string>
+    <string name="autoservice_name">Название автосервиса</string>
+    <string name="autoservice_location">Местоположение</string>
+    <string name="autoservice_working_time">Время работы</string>
+    <string name="autoservice_descrition">Описание</string>
+    <string name="autoservice_signup_button">Записаться</string>
+    <string name="prompt_select_brand">Выберите бренд</string>
+    <string name="prompt_select_model">Выберите модель</string>
+    <string name="map_image">Карта</string>
+</resources>

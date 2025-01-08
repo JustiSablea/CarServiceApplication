@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/orderDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Дата: 01.01.2025 14:30" />
+
+    <TextView
+        android:id="@+id/vehicleInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Автомобиль: Toyota Camry (A123BC)" />
+
+    <TextView
+        android:id="@+id/orderProblemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Проблема: Замена масла" />
+
+    <TextView
+        android:id="@+id/serviceNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Авто сервис: АвтоСервис123" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Данные пользователя -->
+        <TextView
+            android:id="@+id/userNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:drawableStart="@drawable/name_icon"
+            android:drawablePadding="6dp"
+            android:text="Имя Фамилия"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/userDobTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/calendar_icon"
+            android:drawablePadding="6dp"
+            android:paddingTop="4dp"
+            android:text="Дата рождения"
+            android:textSize="18dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/userPhoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:drawableStart="@drawable/phone_icon"
+            android:drawablePadding="6dp"
+            android:text="Телефон"
+            android:textSize="18dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/editProfileButton"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/aquamarine"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/edit_profile_button"
+            android:layout_marginBottom="24dp" />
+
+        <!-- История заказов -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appointment_history"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ordersRecyclerView"
+            android:background="@drawable/edit_text_boarder"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Автомобили -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user_cars"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vehiclesRecyclerView"
+            android:layout_width="match_parent"
+            android:background="@drawable/edit_text_boarder"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/manageVehiclesButton"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/aquamarine"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="@string/car_management_button" />
+
+    </LinearLayout>
+</ScrollView>
